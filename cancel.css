@@ -1,0 +1,114 @@
+body{
+   background-color: #cffce2; 
+    background-image: url(pics/trainpic.jpg);
+    
+}
+.head{
+    background-color: #ffffff;
+   
+   
+   
+    
+}
+@keyframes l{
+    from{
+        transition: 50% 50%;
+        color:black;
+    }
+    
+    to{
+        transition: 50% 50%;
+       color: aliceblue;
+    }
+}
+h1{
+    margin 0;
+    padding: 0 0 20px;
+    text-align :center;
+}
+
+
+ .ank{
+    font-size: 600%;
+     font-family:fantasy;
+     padding: 30px;
+     margin: 0px 10px;
+     
+}
+p{
+    margin :0px;
+    padding: 0px;
+    font-weight:bold;
+}
+.login input{
+   
+    width:100%;
+     margin-bottom: 20px;
+}
+.login input[type="text"],input[type="date"],input[type="email"],input[type="number"]{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    color:aliceblue;
+    outline :none;
+    height:40px;
+}
+
+.login input[type="submit"]{
+    border:none;
+    outline:none;
+    height:40px;
+    background:#fb2525;
+    font-size: 18px;
+    color:aliceblue;
+    border-radius:20px;
+    
+}
+.login input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+}
+.login a{
+    text-decoration: none;
+    font-size:12px;
+    line-height:20px;
+    color:darkgrey;
+}
+.login a:hover{
+    color:#ffc107;
+}
+.login{
+     background-color: black;
+    margin :10px;
+    width:320px;
+    height:380px;
+    position :absolute;
+    top:60%;
+    left:70%;
+   color:white;
+    transform :translate(-50%,-50%);
+    opacity: 50%;
+    padding:50px 30px;
+    box-shadow: 10px 10px 10px grey;
+}
+.lo{
+     background-color: #ff944d;
+    margin :10px;
+    width:500px;
+    height:380px;
+    position :absolute;
+    top:60%;
+    left:30%;
+   color:white;
+    transform :translate(-50%,-50%);
+    opacity: 50%;
+    padding:50px 30px;
+    box-shadow: 10px 10px 10px grey;
+}
+div:hover.login{
+    box-shadow: 20px 20px 20px grey;
+}
+section:hover.ank{
+    
+    animation: l 3s;
+}

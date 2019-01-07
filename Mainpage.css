@@ -1,0 +1,192 @@
+.ank{
+    font-size: 110%;
+     font-family:fantasy;
+     padding: 30px;
+     margin: 0px 10px;
+     
+}
+body{
+    
+    height: 100%;
+    margin:0;
+    font-family:sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color:grey;
+    margin:10px;
+    padding:10px;
+    border:solid;
+    border-color: black;
+    font-family: 'Chicle', cursive;
+    
+}
+
+hr { 
+    display: block;
+    margin-top: 0;
+    margin-bottom:0;
+   
+    border-style: inset;
+    border-width: 1px;
+}
+ul{
+    margin:0px;
+    padding:0;
+    list-style-type: none;
+    overflow: hidden;
+}
+ul li{
+    float:left;
+    
+}
+a.top{
+    display: inline-block;
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration : none;
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+    
+}
+a:hover.top{
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+.ol{
+    color:black;
+}
+h1:hover.ol{
+    color:grey;
+}
+
+   
+div:hover.kl{
+    border-radius: 50px;
+}
+
+
+.an{
+ 
+    margin-left: 20px;
+    margin-bottom: 400px;
+    clear:both;
+    font-family: 'Merienda', cursive;
+    color:white;
+    animation:  text 8s forwards;
+    font-size:  300%;
+    
+
+}
+
+
+.p{
+    border-radius:81px; 
+    opacity: 1;
+    margin:40px;
+    animation: rotateInUpRight 4s forwards;
+    
+
+}
+img:hover.p{
+    animation: text7 4s infinite linear ;
+}
+.img1, .img2, .img3{
+    position: relative;
+    opacity:1;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1{
+    background-image:url(pics/MainPage.jpg);
+    min-height: 300px;
+}
+.img2{
+    background-image:url(pics/MainPage2.jpg);
+    min-height:800px;
+}
+.img3{
+    background-image:url(pics/MainPage3.jpg);
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px; 
+}
+.section-light{
+    background-color: #afb9c9;
+    
+}
+.section-dark
+{
+    background-color: #282e34;
+    
+}
+.ankur{
+    position: absolute;
+    top:50%;
+    width:100%;
+    text-align: center;
+    color:#0000;
+    font-size:27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ankur .ank{
+    background-color: #989da5;
+    color:#ffff;
+    padding:20px;
+}
+.ankur .ank .tra{
+     background-color:transparent;
+}
+@media(max-width:568px){
+    .img1, .img2, .img3{
+        background-attachment: scroll;
+        
+    }
+    
+    
+}
+.anku{
+    color: black;
+    text-align: center;
+    margin: 20px;
+    font-size: 400%;
+}
+
+a.link{
+    text-decoration: none;
+    color: white;
+
+    
+    
+}
+a:hover.link{
+   color:black;
+    font-size: 200%;
+
+    
+    
+}
+.link{
+    line-height: 100px;
+}
+.ao{
+    font-size:200%;
+    letter-spacing: 4px;
+    color:black;
+}
+.ankup{
+    padding:10px;
+    text-align: center;
+    margin:20px;
+}
